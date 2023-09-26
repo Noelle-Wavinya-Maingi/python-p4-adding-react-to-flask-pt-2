@@ -4,7 +4,7 @@ from random import choice as rc
 
 from faker import Faker
 
-from server.app import app
+from app import app
 from models import db, Movie
 
 fake = Faker()
